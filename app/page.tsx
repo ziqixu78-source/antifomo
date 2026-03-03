@@ -16,7 +16,7 @@ type ApiData = {
 };
 
 export default function Home() {
-  const [symbol, setSymbol] = useState("SPY");
+  const [symbol, setSymbol] = useState("");
   const [data, setData] = useState<ApiData | null>(null);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState<string>("");
