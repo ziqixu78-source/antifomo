@@ -423,18 +423,17 @@ color: "white",
 <option>GBP</option>
 </select>
 <input
-value={fxAmount}
-inputMode="decimal"
-placeholder={C.fx.amount}
-onChange={(e) => setFxAmount(e.target.value)}
-placeholder={C.fx.amount}
-style={{
-padding: 12,
-borderRadius: 12,
-border: "1px solid rgba(255,255,255,0.15)",
-background: "#000",
-color: "white",
-}}
+  value={fxAmount}
+  inputMode="decimal"
+  placeholder={C.fx.amount}
+  onChange={(e) => setFxAmount(e.target.value)}
+  style={{
+    padding: 12,
+    borderRadius: 12,
+    border: "1px solid rgba(255,255,255,0.15)",
+    background: "#000",
+    color: "white",
+  }}
 />
 
 <button
